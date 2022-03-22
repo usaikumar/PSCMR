@@ -1,0 +1,12 @@
+.list-group li a{
+    background-color: rgb(20, 20, 75);
+    color: white;
+    border-bottom:1px solid white;
+    text-decoration: none;  
+}
+.list-group a:hover{
+    background-color:rgb(1, 128, 231);
+}
+li{
+    list-style-type: none;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.pscmr-banner{
+    width: 100%;
+}
+.marquee{
+    height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.pscmr-navbar{
+    width: 30px;
+}
+.k{
+    z-index: 1;
+}
+ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   background-color: darkblue;
+   overflow:hidden;
+   width: 100%;
+}
+li{
+   float: left;
+}
+li a{
+   display: block;
+   color: white;
+   
+   padding: 15px;
+ text-decoration: none;
+}
+li a:hover{
+    background-color: darkblue;
+    color: white;
+    }
+h1{
+text-align: center;
+color: turquoise;
+}
+p{
+color: brown;
+}
+li a.two{
+display: inline-block;
+}
+li .one{
+display: inline-block;
+}
+.three{
+display: none;
+position: absolute;
+z-index:1;
+background-color: blue;
+width: 260px;
+}
+.three a{
+display:block;
+background-color: darkblue;
+color: white;
+}
+.one:hover .three{
+display: block;
+}
+.d{
+text-align: center;
+padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:615px){
+    .youtube-vedio{
+        width: 480px;
+        height: 320px;
+    }
+
+}
+@media screen and (min-width:616px){
+    .youtube-vedio{
+        width: 345px;
+        height: 250px;
+    }
+
+}
+@media screen and (min-width:916px){
+    .youtube-vedio{
+        width: 310px;
+        height: 240px;
+    }
+
+}
+
+
+.aicte-lab-text{
+    background-color: #FAEBD7;
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+    padding: 5px;
+}
+.img-responsive{
+    background-color: #ffffff;
+    
+}
+.placement-img{
+    height: 250px;
+    width: 250px;
+}
+@media screen and (max-width:800px){
+    .anti-ragging-text{
+        display: none;
+
+    }
+    .ragging-logo{
+        height: 35px;
+        width: 35px;
+        margin-right: 80px;
+    }
+    
+}
+
+.ragging-logo{
+    height: 35px;
+    width: 35px;
+    margin-top: 13px;
+    margin-left: 85px;
+}
+
+
+
+
+.anti-ragging-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pscmr-footer-section-image{
+    height: 120px;
+    width: 120px;
+}
+
+
